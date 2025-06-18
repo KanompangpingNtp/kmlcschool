@@ -190,9 +190,7 @@
     @endif
 
     {{-- Top Navbar: แสดงเฉพาะบน desktop --}}
-   <nav class="navbar navbar-expand-lg navbar-dark p-0"
-     style="background: linear-gradient(to left, #dd8d53, #f47424);">
-
+   <nav class="navbar navbar-expand-lg navbar-dark p-0" style="background-color: #FFA101);">
         <div class="container">
             <a class="navbar-brand text-dark d-flex  align-items-center" href="{{ route('Home') }}">
                 <img src="{{ asset('navbar/Logo.jpg') }}" alt="Logo" class="logo-img me-2">
