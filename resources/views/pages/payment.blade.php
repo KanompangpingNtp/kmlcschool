@@ -4,14 +4,13 @@
     <style>
         .bg-home {
             /* background: url('{{ asset('home/Bg.png') }}') no-repeat center center; */
+            background-color: #FAE6B1;
             background-size: cover;
             min-height: 85.2vh;
             padding: 2rem 2rem 5rem 2rem;
         }
 
-
-
-        .qr-code{
+        .qr-code {
             width: 100%;
             height: 300px;
             object-fit: cover;
@@ -42,7 +41,8 @@
             <div class="container py-5">
                 <!-- หัวข้อหลัก -->
                 <h1 class="text-center fw-bold mb-5">หน้าการชำระ</h1>
-                <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start gap-3">
+                <div
+                    class="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start gap-3">
                     <div class="bg-white rounded-4 shadow py-4 px-4">
                         <h3 class="text-center fw-bold   mb-4">สรุปรายละเอียดคำสั่งซื้อ</h3>
                         <!-- กล่องที่ควบคุมความสูง -->
@@ -73,7 +73,8 @@
                     </div>
                     <div class="bg-white rounded-4 shadow py-4 px-4">
                         <div class="d-flex flex-column justify-content-start align-items-center">
-                            <img src="{{ asset('payment/qr-code 3.png') }}" alt="qr-code" class="img-fluid img-couse mb-3 qr-code" >
+                            <img src="{{ asset('payment/qr-code 3.png') }}" alt="qr-code"
+                                class="img-fluid img-couse mb-3 qr-code">
 
                             <!-- กล่องจัดแนวนอน ราคา + ชื่อผู้สอน -->
                             <div class="d-flex flex-column justify-content-center align-items-center gap-2">
@@ -81,7 +82,8 @@
                                 <p class="mb-0 fs-3">ดร.อดิศร ก้อนเงิน</p>
                             </div>
                             <a href="#" class="btn-detail w-100">
-                                <img src="{{asset('course/icon.png')}}" alt="icon" class="me-2 d-none d-xl-block" style="height: 40px; width: 40px;"> ปริ้นใบเสร็จ
+                                <img src="{{ asset('course/icon.png') }}" alt="icon" class="me-2 d-none d-xl-block"
+                                    style="height: 40px; width: 40px;"> ปริ้นใบเสร็จ
                             </a>
                         </div>
                     </div>

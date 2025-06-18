@@ -3,7 +3,7 @@
 @section('content')
     <style>
         .bg-home {
-            background-color: #f8e6d4;
+            background-color: #FAE6B1;
             background-size: cover;
             min-height: 90vh;
             padding: 2rem 2rem 2rem 2rem;

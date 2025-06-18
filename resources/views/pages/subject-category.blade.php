@@ -4,6 +4,7 @@
     <style>
         .bg-home {
             /* background: url('{{ asset('home/Bg.png') }}') no-repeat center center; */
+            background-color: #FAE6B1;
             background-size: cover;
             min-height: 85.2vh;
             padding: 2rem 2rem 2rem 2rem;
