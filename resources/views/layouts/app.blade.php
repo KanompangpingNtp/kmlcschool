@@ -52,7 +52,7 @@
         transform: translateY(-2px) scale(1.03);
         box-shadow: 0 6px 16px rgba(17, 134, 252, 0.45);
         filter: brightness(1.05);
-        color: #ffffff;
+        color: black;
     }
 
     .btn-login {
